@@ -8,8 +8,12 @@
 
 1. **brain-games** - game with introduction
 2. **brain-even** - check the number for parity
+3. **brain-calc** - calculate expressions
 
 # Games overviews:
 
 **brain-even asciinema**
 [![asciicast](https://asciinema.org/a/yrFTEkmfcAgjjgBzpRJXskV3o.svg)](https://asciinema.org/a/yrFTEkmfcAgjjgBzpRJXskV3o)
+
+**brain-calc asciinema**
+[![asciicast](https://asciinema.org/a/9jPc7clgVA3MvT1EGuMGB6X9I.svg)](https://asciinema.org/a/9jPc7clgVA3MvT1EGuMGB6X9I)

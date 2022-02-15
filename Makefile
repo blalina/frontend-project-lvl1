@@ -12,3 +12,6 @@ lint: # запуск линтера
 
 brain-even: #разворачивание и запуск brain-even
 	node bin/brain-even.js
+
+brain-calc: #разворачивание и запуск brain-calc
+	node bin/brain-calc.js
