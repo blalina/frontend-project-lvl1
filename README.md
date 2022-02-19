@@ -9,6 +9,7 @@
 1. **brain-games** - game with introduction
 2. **brain-even** - check the number for parity
 3. **brain-calc** - calculate expressions
+4. **brain-gcd** - сalculate the greatest common divisor of the numbers
 
 # Games overviews:
 
@@ -17,3 +18,6 @@
 
 **brain-calc asciinema**
 [![asciicast](https://asciinema.org/a/9jPc7clgVA3MvT1EGuMGB6X9I.svg)](https://asciinema.org/a/9jPc7clgVA3MvT1EGuMGB6X9I)
+
+**brain-gcd* asciinema**
+[![asciicast](https://asciinema.org/a/KJd8cKwZSBXVlFejkqUdljuTg.svg)](https://asciinema.org/a/KJd8cKwZSBXVlFejkqUdljuTg)

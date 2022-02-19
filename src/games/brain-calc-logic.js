@@ -1,4 +1,4 @@
-import readlineSync from 'readline-sync';
+import gameLogic from '../index.js';
 
 function generateRandomOpponentMove() {
   const availableMoves = ['+', '-', '*'];
@@ -26,27 +26,17 @@ function resultOfTheExpression(number1, number2, signs) {
 
 const getRandomNumber = () => Math.floor(Math.random() * 100);
 
-export const calculatorGameRules = () => {
-  console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
-  console.log('What is the result of the expression?');
+const gameRules = 'What is the result of the expression?';
 
-  for (let i = 0; i <= 2; i += 1) {
-    const numberOne = getRandomNumber();
-    const numberTwo = getRandomNumber();
-    const operations = generateRandomOpponentMove();
-
-    console.log(`Question: ${numberOne} ${operations} ${numberTwo}`);
-    const correctAnswer = resultOfTheExpression(numberOne, numberTwo, operations);
-    const userResponse = readlineSync.question('Your answer: ');
-    if (correctAnswer === Number(userResponse)) {
-      console.log('Correct!');
-    } else {
-      console.log(`${userResponse} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
-      console.log(`Let's try again, ${userName}!`);
-      return;
-    }
-  }
-  console.log(`Congratulations, ${userName}!`);
+const gameCheck = () => {
+  const numberOne = getRandomNumber();
+  const numberTwo = getRandomNumber();
+  const operations = generateRandomOpponentMove();
+  const question = `${numberOne} ${operations} ${numberTwo}`;
+  const correctAnswer = resultOfTheExpression(numberOne, numberTwo, operations);
+  return [question, correctAnswer];
 };
+
+const calculatorGame = () => gameLogic(gameRules, gameCheck);
+
+export default calculatorGame;
