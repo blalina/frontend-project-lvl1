@@ -34,7 +34,7 @@ const gameCheck = () => {
   const operations = generateRandomOpponentMove();
   const question = `${numberOne} ${operations} ${numberTwo}`;
   const correctAnswer = resultOfTheExpression(numberOne, numberTwo, operations);
-  return [question, correctAnswer];
+  return [question, String(correctAnswer)];
 };
 
 const calculatorGame = () => gameLogic(gameRules, gameCheck);

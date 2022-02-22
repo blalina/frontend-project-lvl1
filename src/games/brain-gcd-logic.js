@@ -17,7 +17,7 @@ const gameCheck = () => {
   const numberTwo = getRandomNumber();
   const question = `${numberOne} ${numberTwo}`;
   const correctAnswer = greatestCommonDivisor(numberOne, numberTwo);
-  return [question, correctAnswer];
+  return [question, String(correctAnswer)];
 };
 
 const gcdGame = () => gameLogic(gameRules, gameCheck);
