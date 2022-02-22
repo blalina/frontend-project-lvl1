@@ -14,7 +14,7 @@ You can play and win by successfully answering 3 questions in a row.
 ***Before you start the games, do the following:***
 
 - Сheck for **Node.js**: enter command line `node -v`.
-- Install **Node.js** package: enter command line `brew install node`
+- Install **Node.js** package: enter command line `brew install node`.
 - The npm is installed with Node.js by default. Сheck for **npm**: enter command line `npm -v`.
 - Upgrade **Node.js** to the latest version: enter command line `brew upgrade node`.
 - Clone this repository by **SSH key**: `git@github.com:blalina/frontend-project-lvl1.git`.
