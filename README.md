@@ -10,6 +10,7 @@
 2. **brain-even** - check the number for parity
 3. **brain-calc** - calculate expressions
 4. **brain-gcd** - сalculate the greatest common divisor of the numbers
+5. **brain-progression** - calculate the missing number from an arithmetic progression
 
 # Games overviews:
 
@@ -19,5 +20,8 @@
 **brain-calc asciinema**
 [![asciicast](https://asciinema.org/a/9jPc7clgVA3MvT1EGuMGB6X9I.svg)](https://asciinema.org/a/9jPc7clgVA3MvT1EGuMGB6X9I)
 
-**brain-gcd* asciinema**
+**brain-gcd asciinema**
 [![asciicast](https://asciinema.org/a/KJd8cKwZSBXVlFejkqUdljuTg.svg)](https://asciinema.org/a/KJd8cKwZSBXVlFejkqUdljuTg)
+
+**brain-progression asciinema**
+[![asciicast](https://asciinema.org/a/ASSWTmJEsOMbTNR6tUhH1V5Co.svg)](https://asciinema.org/a/ASSWTmJEsOMbTNR6tUhH1V5Co)

@@ -16,5 +16,8 @@ brain-even: #разворачивание и запуск brain-even
 brain-calc: #разворачивание и запуск brain-calc
 	node bin/brain-calc.js
 
-brain-gcd: #разворачивание и запуск brain-calc
+brain-gcd: #разворачивание и запуск brain-gcd
 	node bin/brain-gcd.js
+
+brain-progression: #разворачивание и запуск brain-progression
+	node bin/brain-progression.js
