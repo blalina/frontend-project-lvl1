@@ -24,7 +24,7 @@ const gameCheck = () => {
   const correctAnswer = `${progression[randomIndex]}`;
   progression[randomIndex] = '..';
   const question = progression.join(' ');
-  return [question, correctAnswer];
+  return [question, String(correctAnswer)];
 };
 
 const arithmeticProgressionGame = () => gameLogic(gameRules, gameCheck);
