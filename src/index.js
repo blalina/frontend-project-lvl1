@@ -13,7 +13,7 @@ const gameLogic = (gameRules, gameCheck) => {
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
-    if (Number(correctAnswer) === Number(userAnswer)) {
+    if (correctAnswer === userAnswer) {
       console.log('Correct!');
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);

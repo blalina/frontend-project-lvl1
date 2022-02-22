@@ -21,3 +21,6 @@ brain-gcd: #разворачивание и запуск brain-gcd
 
 brain-progression: #разворачивание и запуск brain-progression
 	node bin/brain-progression.js
+
+brain-prime: #разворачивание и запуск brain-prime
+	node bin/brain-prime.js
